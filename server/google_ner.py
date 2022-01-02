@@ -10,8 +10,6 @@ def sample_analyze_entities(text_content):
 
     client = language_v1.LanguageServiceClient()
 
-    # text_content = 'California is a state.'
-
     # Available types: PLAIN_TEXT, HTML
     type_ = language_v1.Document.Type.PLAIN_TEXT
 
